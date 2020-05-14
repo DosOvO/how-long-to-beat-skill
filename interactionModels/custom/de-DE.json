@@ -1,0 +1,57 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "how long to beat",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hello",
+            "how are you",
+            "sag hi",
+            "sag hallo",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "GameTimeIntent",
+          "slots": [
+            {
+              "name": "gametitle",
+              "type": "AMAZON.VideoGame"
+            }
+          ],
+          "samples": [
+            "wie lange man für {gametitle} braucht",
+            "nach der spielzeit von {gametitle}",
+            "nach spielzeit von {gametitle}",
+            "wie lange braucht man für {gametitle}",
+            "spielzeit von {gametitle}",
+            "was ist die spielzeit von {gametitle}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "8"
+}
